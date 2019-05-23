@@ -9,7 +9,7 @@ while 1>0: #while True
       if x==20:
          break
    else:
-      n+=1     #add one o n
+      n+=1     #add one to n
       x=11     #sets it back to 11 if n isn't divisable by x at any point
 print "The smallest positive number that is evenly divisible by all of the numbers from 1 to 20 is " + str(n)
 
