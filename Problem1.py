@@ -8,7 +8,7 @@ last_added=0
 
 n= input("Multiples of 3 and 5 up to? ")
 
-while three_total <= n and five_total <= n : #makes sure smallest # printed first
+while three_total <= n and five_total <= n : #makes sure smallest number printed first
   if three_total<= five_total:
       if last_added != three_total: # makes sure double counting doesn't happen
         print three_total
