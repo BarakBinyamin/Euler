@@ -10,8 +10,8 @@ n= input("Multiples of 3 and 5 up to? ")
 
 #this loop prints the multiple of three and five in order,while simultaniously adding the multiples to a running sum it also makes sure the numbers are printed
 #the last_added varable was added to avoid double counted nmultiples 
-while three_total <= n and five_total <= n : #makes sure smallest number printed first
-  if three_total<= five_total:
+while three_total <= n and five_total <= n : 
+  if three_total<= five_total:  #makes sure smallest number printed first
       if last_added != three_total: # makes sure double counting doesn't happen
         print three_total
         r_s += three_total          
